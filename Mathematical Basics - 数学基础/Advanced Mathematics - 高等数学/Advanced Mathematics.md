@@ -20,7 +20,7 @@ The necessary and sufficient condition for $lim_{x\to x_0}f(x)=A$ is $lim_{x\to 
 
 **Relationship with Derivatives**
 
-The rate of change of the function's values as the independent variable varies minimally can represent the curvature at a specific point.
+The rate of change of the function's values as the independent variable varies minimally and can represent the curvature at a specific point.
 
 $$
 lim_{\Delta\to 0}\frac{f(x_0+\alpha\Delta)-f(x_0+\beta\Delta)}{\Delta}=f'(x_0)(lim_{\Delta\to 0} \alpha-lim_{\Delta\to 0} \beta)
@@ -38,9 +38,10 @@ $$
 lim_{x\to \infty}\frac{sin2x}{x}=lim_{x\to \infty}\frac{2x}{x}=2
 $$
 
-                Common substitutions as shown in the figure below
+Common substitutions as shown in the figure below
 
-![Advanced_Mathematics_01.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_01.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_01.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_01.png
+)
 
 **Type- $\frac{\infty}{\infty}$:** Retain only the term with the highest exponent of the variable, e.g.
 
@@ -54,8 +55,9 @@ $$
 lim_{x\to ?}Base^{Exponent}=e^{lim_{x \to ?} Exponent ×(aBase-1）}
 $$
 
-              e.g.   $lim_{x\to \infty}(1+3x)^\frac{2}{x}=e^{lim_{x \to \infty}\frac{2}{x}×（1+3x-1）}=e^6$
-              p.s.   Its principle is derived from: $a^b=(e^{\ln a})^b=e^{b(\ln a)}$
+e.g.   $lim_{x\to \infty}(1+3x)^\frac{2}{x}=e^{lim_{x \to \infty}\frac{2}{x}×（1+3x-1）}=e^6$
+
+p.s.   Its principle is derived from: $a^b=(e^{\ln a})^b=e^{b(\ln a)}$
 
 These three types cannot cover all problems, which require more general tools.
 
@@ -85,9 +87,9 @@ A series refers to a function formed by sequentially adding the terms of a seque
 
 Typically, the focus in such problems lies in determining the **convergence or divergence** of the series, and the process for making this determination is as follows:
 
-![Advanced_Mathematics_02.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_02.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_02.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_02.png)
 
-**Conditional convergence** refers to a series that converges, but its absolute value does not. The **Absolute Convergence Theorem** states that if the absolute value of a series converges, then the original series must also converge. A common example of conditionally convergent series is the **alternating series** (where each term alternates in sign).
+**Conditional convergence** refers to a series that converges, but its absolute value does not. The **Absolute Convergence Theorem** states that if the absolute value of a series converges, then the original series must also converge. A common example of the conditionally convergent series is the **alternating series** (where each term alternates in sign).
 
 # 2.Derivative
 
@@ -95,7 +97,7 @@ Typically, the focus in such problems lies in determining the **convergence or d
 
 ### **Common Problem Comparison Table**
 
-![Advanced_Mathematics_03.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_03.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_03.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_03.png)
 
 ### Implicit/Parametric Differentiation
 
@@ -105,7 +107,7 @@ The parametric equation is when $y(x)$ is not explicitly solved for, but $y(t)$ 
 
 ### **Multivariable Differentiation**
 
-**Partial derivatives** are used in the context of multivariable functions. They represent the derivative of a function with respect to each individual independent variable. Geometrically (in the case of a bivariate function), they represent the slope of the tangent line on the surface. The partial derivative of a function $z = f(x, y)$ at the point $(x_0, y_0)$ with respect to the independent variable  $x$ is defined as the limit $lim_{\Delta x \to 0}\frac{f(x_0+\Delta x, y_0)-f(x_0, y_0)}{\Delta x}$ and is denoted as $\frac{\delta z}{\delta x}|{x=x_0, y=y_0}$ *or $\frac{\delta f}{\delta x}|{x=x_0, y=y_0}$*.
+**Partial derivatives** are used in the context of multivariable functions. They represent the derivative of a function with respect to each individual independent variable. Geometrically (in the case of a bivariate function), they represent the slope of the tangent line on the surface. The partial derivative of a function $z = f(x, y)$ at the point $(x_0, y_0)$ with respect to the independent variable  $x$ is defined as the limit $lim_{\Delta x \to 0}\frac{f(x_0+\Delta x, y_0)-f(x_0, y_0)}{\Delta x}$ and is denoted as $\frac{\delta z}{\delta x}|{x=x_0, y=y_0}$ or $\frac{\delta f}{\delta x}|_{x=x_0,y=y_0}$.
 
 The notation for **second partial derivatives** is: $\frac{\partial^2 z}{\partial x^2} = \frac{\partial (\frac{\partial z}{\partial x})}{\partial x}$ and $\frac{\partial^2 z}{\partial x\partial y} = \frac{\partial (\frac{\partial z}{\partial x})}{\partial y}$. This can be extended to higher-order derivatives.
 
@@ -127,7 +129,7 @@ When finding partial derivatives for implicit functions, an additional function 
 $$
 B^2-AC =
 \begin{cases}
-\lt0\begin{cases}A\lt0  & \text{maxima point}\\A\gt0 & \text{minima point}\end{cases}\\
+\lt0\begin{cases}A\lt0  & \text{maxima point}\\ A \gt 0 & \text{minima point}\end{cases}\\
 =0 & \text{indeterminate}\\
 \gt0 & \text{non-extremum}
 \end{cases}
@@ -157,7 +159,7 @@ $$
 f(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2+…+\frac{f^n(0)}{n!}x^n+\frac{f^{(n+1)}(\theta x)}{(n+1)!}x^{n+1} (0\lt\theta\lt1)
 $$
 
-# 3**. Calculus**
+# 3. ** Calculus**
 
 ## **3.1 Indefinite Integration**
 
@@ -167,7 +169,7 @@ If $a' = b$, then $\int b = a + C$.
 
 ### Table of Common Properties for Reference
 
-![Advanced_Mathematics_04.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_04.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_04.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_04.png)
 
 ### **Substitution Method**
 
@@ -175,7 +177,8 @@ If $a' = b$, then $\int b = a + C$.
 
 **Other Substitution Techniques:**
 
-![Advanced_Mathematics_05.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_05.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_05.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_05.png)
+
 
 ### **Integration by Parts**
 
@@ -209,7 +212,7 @@ $$
 
 Variable limits of integration refer to the situation where the integration bounds are functions, and thus not completely determined. The method to handle this is:
 
-![Advanced_Mathematics_06.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_06.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_06.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_06.png)
 
 ### **Double Integration**
 
@@ -235,11 +238,11 @@ $$
 
 **Compound function** refers to the situation where the variable serving as the unknown in a function is itself a function of other variables. When finding the total differential of a compound function, the differential of the intermediate variable, which serves as a function, needs to be fully processed first, transformed into the differential of an independent variable, and then incorporated into the final result. It is worth noting that the derivatives of multivariable functions satisfy: $\frac{\partial^2 z}{\partial x\partial y}=\frac{\partial^2 z}{\partial y\partial x}$.
 
-**Conditional Relationship** between differential and partial derivative: If the partial derivatives are continuous, then the function is differentiable. Conversely, if the function is differentiable, it is continuous and has continuous partial derivatives. However, continuity of the function and the ability to compute partial derivatives do not necessarily have a causal relationship.
+**Conditional Relationship** between differential and partial derivative: If the partial derivatives are continuous, then the function is differentiable. Conversely, if the function is differentiable, it is continuous and has continuous partial derivatives. However, the continuity of the function and the ability to compute partial derivatives do not necessarily have a causal relationship.
 
 ### **Differential Equations**
 
-**Particular Solution and General Solution:** Differential equation problems typically involve providing an expression with multiple derivatives of the function $y$ and seeking a general solution (i.e., $y=f(x)=?$). Due to the characteristics of indefinite integration, the general solution often includes a constant term. If the values of $y$ corresponding to certain $x$ are known, it is possible to find a particular solution.
+**Particular Solution and General Solution:** Differential equation problems typically involve providing an expression with multiple derivatives of the function $y$ and seeking a general solution (i.e., $y=f(x)=?$). Due to the characteristics of indefinite integration, the general solution often includes a constant term. If the values of $y$ corresponding to the certain $x$ are known, it is possible to find a particular solution.
 
 **Solving Differential Equation:** Organizing the equation (placing $dy$, $dx$ and the corresponding unknowns on both sides of the equation) and then integrating both sides simultaneously. More advanced methods are required if this approach is not feasible(Detailed instructions refer to the video link on the top). Dealing with higher-order differential equations can be challenging, while for the condition that only three types of terms are present, it is still possible to successfully solve them through substitution or other methods.
 
@@ -247,7 +250,7 @@ $$
 
 In this context, "homogeneous" refers to equations containing only $y$ and its multiple derivatives, without components of $x$ or constant terms. Conversely, equations that include $x$ or constant terms are termed non-homogeneous. The relationship of them is illustrated as follows:
 
-![Advanced_Mathematics_07.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_07.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_07.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_07.png)
 
 ## **4.1 Vectors**
 
@@ -259,11 +262,12 @@ In this context, "homogeneous" refers to equations containing only $y$ and its m
 
 **Orthogonal**: Vectors being orthogonal means they are mutually perpendicular in space. In higher dimensions, this originates from linear independence and the inability to be expressed in terms of each other.
 
-**Cross Product**: The result of the cross product is a vector that is orthogonal to both multiplied vectors (hence, the cross product being 0 can be used to determine if vectors are parallel). The cross product calculation involves the use of determinants, for example, for a three-element vector:
+**Cross Product**: The result of the cross product is a vector that is orthogonal to both multiplied vectors (hence, the cross product being 0 can be used to determine if vectors are parallel). The cross-product calculation involves the use of determinants, for example, for a three-element vector:
 
-![Advanced_Mathematics_08.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_08.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_08.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_08.png)
 
-**Projection:** The length of the projection is calculated using the formula: $|\vec{a_{\text{proj}}}|=\frac{\vec{a}\cdot\vec{b}}{|\vec{b}|}$. If the direction needs to be considered, then the projection vector is: $\vec{a_{\text{proj}}} = |\vec{a_{\text{proj}}}|\cdot\frac{\vec{b}}{|\vec{b}|}$.
+
+**Projection:** The length of the projection is calculated using the formula: $|\vec{a_{\text{proj}}}|=\frac{\vec{a}\cdot\vec{b}}{|\vec{b}|}$. If the direction needs to be considered, then the projection vector is $\vec{a_{\text{proj}}} = |\vec{a_{\text{proj}}}|\cdot\frac{\vec{b}}{|\vec{b}|}$.
 
 ## **4.2 Planes and Lines**
 
@@ -281,7 +285,7 @@ $$
 
 ### **Lines**
 
-**Intersection Equation**: The intersection of two planes forms an system of equations, which composed by the equation of two planes.
+**Intersection Equation**: The intersection of two planes forms a system of equations, which is composed of the equation of two planes.
 
 **Line-Plane Relationship**: If we express a line $L$ in the form of the intersection equation, then $\vec s=\lbrace A_1,B_1,C_1\rbrace \times \lbrace A_2,B_2,C_2\rbrace$ is parallel to the line.
 
@@ -356,4 +360,4 @@ $$
 
 ## ****4.4 Other Common 3D Surfaces****
 
-![Advanced_Mathematics_09.png](Advanced%20Mathematics%20544598b0f3144dffac30b202ce8ca507/Advanced_Mathematics_09.png)
+![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_09.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_09.png)
