@@ -258,7 +258,7 @@ In this context, "homogeneous" refers to equations containing only $y$ and its m
 
 **Magnitude**: Regardless of dimension, the magnitude of a vector is the square root of the sum of the squares of its elements, denoted as the vector's norm.
 
-**Norm**: $||x||_p=(\sum_i|x_i|^p)^{\frac{1}{p}}$, denoted as $L_p$ norm, where $L_2$ norm can be regarded as the magnitude of the vector.
+**Norm**: $||x||_p=(\sum_i|x_i|^p)^{\frac{1}{p}}$, denoted as $L_p$ norm, where $L_2$ norm can be regarded as the magnitude of the vector. They can quantify the distance of vectors in higher dimensions.
 
 **Dot Product**: The dot product involves multiplying corresponding elements of two vectors and summing the results (known as the inner product), resulting in a scalar. It satisfies the commutative and associative properties.
 
