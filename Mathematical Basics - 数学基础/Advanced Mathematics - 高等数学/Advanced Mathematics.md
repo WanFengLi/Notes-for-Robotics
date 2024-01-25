@@ -159,7 +159,7 @@ $$
 f(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2+…+\frac{f^n(0)}{n!}x^n+\frac{f^{(n+1)}(\theta x)}{(n+1)!}x^{n+1} (0\lt\theta\lt1)
 $$
 
-# 3. ** Calculus**
+# **3. Calculus**
 
 ## **3.1 Indefinite Integration**
 
@@ -252,9 +252,13 @@ In this context, "homogeneous" refers to equations containing only $y$ and its m
 
 ![%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%207403806347e44798b2ee2292b21e1594/Advanced_Mathematics_07.png](https://github.com/WanFengLi/Notes-for-Robotics/blob/99fb883a2d57d47c942ae102215d3b4ded277d5f/Mathematical%20Basics%20-%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/Advanced%20Mathematics%20-%20%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/Advanced%20Mathematics%20Gallery/Advanced_Mathematics_07.png)
 
+# **4.Spatial Geometry**
+
 ## **4.1 Vectors**
 
 **Magnitude**: Regardless of dimension, the magnitude of a vector is the square root of the sum of the squares of its elements, denoted as the vector's norm.
+
+**Norm**: $||x||_p=(\sum_i|x_i|^p)^{\frac{1}{p}}$, denoted as $L_p$ norm, where $L_2$ norm can be regarded as the magnitude of the vector.
 
 **Dot Product**: The dot product involves multiplying corresponding elements of two vectors and summing the results (known as the inner product), resulting in a scalar. It satisfies the commutative and associative properties.
 
